@@ -56,22 +56,43 @@ Mijn app werkt op de volgende manier :
 zonder toegang te hebben van de key kan je de gegevens niet gebruiken
 
 ## Installatie en gebruik
-1. Maak een virtual environment aan:
-Zorg ervoor dat je Python geïnstalleerd hebt. het beste is om 3.12 of hoger te gebruiken. Maak een Virtual Environment aan met dit command:
+1. Clone de repo
+   ```sh
+   git clone https://github.com/Rac-Software-Development/wp2-2024-mvc-1c1-de-samengestelden.git
+   ```
+2. Voeg een python interpreter toe
+3. In Pycharm klik "Install requirements" of in terminal:
+   ```sh
+   pip install -r requirements.txt
+   ```
+5. Run main.py in IDE of in terminal:
+   ```sh
+   python main.py
+   ```
 
-python -m venv venv
-2. Activeer de virtual environment
+maar het ook handig om als je geen enviroment heeft kan je via de terminal een .env opstarten via de volgende commando's
 
+  ```sh
+   python3 -m .venv .venv
+   ```
 
-venv\Scripts\activate
+daarna voer je deze commando uit om de .env te activeren
 
-3. Installeer de vereiste python packages
-pip install -r requirements.txt
-4. Start de applicatie
-Na het installeren van de vereiste python packages kun je de applicatie starten met dit command:
+  ```sh
+   .\.venv\scripts\activate
+   ```
 
-python app.py
+wanner dat je deze omgeving heb geactiveerd kan je de requirements installeer door
 
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+en daarna Run main.py in IDE of in terminal:
+
+   ```sh
+   python main.py
+   ```
 
 
 ## Reflectie
