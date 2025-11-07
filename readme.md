@@ -11,9 +11,12 @@ De applicatie maakt  gebruik van een  symmetrische encryptie library  genaamd cr
 De werking van de applicatie.
 Wanneer je de app opstart, krijg je eerst de vraag of dat je iets wil encrypten of decrypten.  
 
-Wanneer er nog geen key file  is, wordt deze gegenereert door het systeem en wordt dit opgeslagen als een file genaamd key.key.
-- Daarna heb je de mogelijkheid om tekst in te voeren voor het encrypten van een bericht  of decrypten  van het bericht, voor het decrypten van het bericht moet je de text kopieren uit de key.key
-- De uitkomst wordt direct op je scherm weergegeven.
+Wanneer er nog geen key fil  is, wordt deze gegenereert door het systeem en wordt dit opgeslagen als een file genaamd key.key.
+-Voor encryptie voer je je tekst in en het system encrypt dit automatisch.
+
+Voor decryptie kopieer je het uit key.key en decrypteer het systeem je message.
+
+De uitkomst wordt direct op je scherm weergegeven.
 
 
 
@@ -99,5 +102,7 @@ en daarna Run main.py in IDE of in terminal:
 In deze opdracht heb ik kennis opgedaan over het gebruik van eem-symmetrische encryptie en de essentie van het toepassen van encryptie voor het beschermen van werk. Zelfs een sterke algoritme zoals AES biedt geen bescherming als de encryptie sleutel niet op een veilige wijze wordt opgeslagen. Fernet laat zien op welke veilige manieren encryptie en authenticatie samen kunnen worden toegepast.
 
 Mijn app toont het Principe van Kerckhoff aan: zowel de code als de methode zijn toegankelijk, terwijl de sleutel verborgen blijft. Voor dit project wordt de sleutel op lokaal niveau opgeslagen, wat praktisch is voor persoonlijk gebruik, maar bij meerdere gebruikers of in een productieomgeving zou dit niet voldoende veilig zijn.
+
+dit is een encryptie tool die waarschijnlijk niet in de werkvloer zou gebruiken. dit komt omdat na een encryptie je handmatig de key.key file moet verwijderen. dit zorgt voor extra werk.
 
 github url: https://github.com/Kevin-1111102/week-5-encryptie-security
